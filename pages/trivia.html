@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--bootstrap-->
+     <link
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+     rel="stylesheet"
+     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+     crossorigin="anonymous"
+   />
+   <!--fin bootstrap-->
+   <link
+     rel="shortcut icon"
+     href="/imagen/erlenmeyer.png"
+     type="image/x-icon"
+   />
+   <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+     crossorigin="anonymous"
+     referrerpolicy="no-referrer"
+   />
+   <!--css-->
+   <link rel="stylesheet" href="../estilos.css" />
+   <!--javascript-->
+   <script>
+    
+    let correctas =  [3,1,1,2,3 ];
+
+    let  opcion_elegida =  [ ];
+    let cantidad_de_correctas= 0;
+
+    function respuesta(num_pregunta, seleccionada){
+
+    opcion_elegida  [ num_pregunta] = seleccionada.value;
+
+    id="p" + num_pregunta;  
+    }
+    function verificar(){
+    cantidad_de_correctas=0;
+    for(i=0; i< correctas.length; i++){
+        if(correctas[i]==opcion_elegida[i]){
+            cantidad_de_correctas++;
+        }
+    }
+    document.getElementById("resultado").innerHTML = cantidad_de_correctas;
+
+    }
+   </script>
+    <title>Trivia</title>
+</head>
+<body>
+   <!--inicio barra de nav-->
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"
+          ><img
+            src="../imagen/chemical-1293762_640.png"
+            alt="erlenmeyer"
+          /><span>QUIMICLICK</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-flex justify-content-end"
+          id="collapsibleNavbar"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./origen.html">Origen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./clasificacion.html"
+                >Clasificación</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./evento.html">Eventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./especiales.html">Radiactividad</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./trivia.html">Trivia</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--fin barra de nav-->
+  <!--cuestionario--> 
+  <section class="fondf">
+  <div class="container1">
+    <section class="sec1" id="p0">
+        <h3>¿Que cientifico invento la tabla periódica?</h3>
+        <label>
+            <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Dalton
+        </label>
+        <label>
+            <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> Lavoisier
+        </label>
+        <label >
+            <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> Mendeleieve
+        </label>
+    </section>
+    <section class= "sec1" id="p1">
+        <h3>¿Cuál es el número atómico del oxígeno ?</h3>
+        <label>
+            <input type="radio" value="1" name="p1" onclick="respuesta(1,this)" > 8
+        </label>
+        <label>
+            <input type="radio" value="2" name="p1" onclick="respuesta(1,this)" > 10
+        </label>
+        <label >
+            <input type="radio" value="3" name="p1"onclick="respuesta(1,this)" > 12
+        </label>
+    </section>
+    <section class= "sec1" id="p2">
+        <h3>¿Qué es la radiactividad?</h3>
+        <label>
+            <input type="radio" value="1" name="p2" onclick="respuesta(2,this)">La propiedad de ciertos materiales de emitir
+            energía espontáneamente
+        </label>
+        <label>
+            <input type="radio" value="2" name="p2" onclick="respuesta(2,this)" > La propiedad de ciertos materiales de explotar espontáneamente
+        </label>
+        <label >
+            <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> La propiedad de ciertos materiales de convertirte en Hulk espontáneamente
+        </label>
+    </section>
+    <section class= "sec1" id="p3">
+        <h3>¿Cuál de las siguientes opciones no es un uso de los isótopos radiactivos?</h3>
+        <label>
+            <input type="radio" value="1" name="p3" onclick="respuesta(3,this)" > Medicina
+        </label>
+        <label>
+            <input type="radio" value="2" name="p3" onclick="respuesta(3,this)" > Cocina
+        </label>
+        <label >
+            <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> Energía
+        </label>
+    </section>
+    <section class= "sec1" id="p4">
+        <h3>Los metales:</h3>
+        <label>
+            <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> Ganan electrones con facilidad
+        </label>
+        <label>
+            <input type="radio" value="2" name="p4" onclick="respuesta(4,this)" > Pierden protones con facilidad
+           
+        </label>
+        <label >
+            <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> Pierden electrones con facilidad
+        </label>
+    </section>
+    
+    
+  <button onclick="verificar()">Verificar</button>
+  <h3>Cantidad acertadas: <span id="resultado"></span></h3>
+  </div>
+</section>
+<footer class="escala">
+    <p class="centrado" >Todos los derechos reservados por copyright</p>
+     <div class="redes">
+       <i class="fa-brands fa-facebook"></i>
+       <i class="fa-brands fa-instagram"></i>
+       <i class="fa-brands fa-twitter"></i>
+     </div>
+  </footer >
+   <a href="#" class="subir">
+       <i class="fa-solid fa-chevron-up"></i>
+   </a>
+  <!--bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!--fin bootstrap-->
+</body>
+</html>

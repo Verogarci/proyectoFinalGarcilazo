@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--fin bootstrap-->
+    <!--iconos-->
+    <link rel="shortcut icon" href="/imagen/erlenmeyer.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--css-->
+    <link rel="stylesheet" href="estilos.css">
+    <title>QUIMICLICK</title>
+</head>
+<body>
+<!--inicio barra de nav-->
+<header>
+  <nav class="navbar navbar-expand-lg  navbar-dark  ">
+    <div class="container-fluid ">
+      
+      <a class="navbar-brand escala " href="/index.html"><img src="./imagen/chemical-1293762_640.png" alt="erlenmeyer"><span >QUIMICLICK</span>
+      </a>
+    
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-end" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/origen.html">Origen</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/clasificacion.html">Clasificación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/evento.html">Eventos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/especiales.html">Radiactividad</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/trivia.html">Trivia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </header>
+ <!--fin header--> 
+ <!--introducion--> 
+ <main>
+  <div class="intro">
+    <h1 >¿Qué es la Tabla Periódica?</h1>
+    <p class="centrado" > La tabla periódica presenta a todos los elementos químicos ordenados según sus propiedades físicas. Fue diseñada por el químico Dimitri Mendeléiev en 1869 y es considerado el descubrimiento más importante de la química. </p>
+    <a href="./pages/origen.html">Ver Más</a>
+</div>
+
+ </main >
+ <!--fin intro-->
+<!-- Carousel -->
+<section class="carru ">
+  <h2>Conoce mas de la tabla</h2>
+<div id="informacion" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="container">
+        <img src="./imagen/oxigeno.jpg" alt="oxigeno" width="300px" height="200px">
+        <h3>El elemento de la semana</h3>
+        <p class="texto">
+          El oxígeno es un elemento químico de número atómico 8,  Se representa con el símbolo O y se encuentra en el grupo 16 y el periodo 2 de la tabla, por lo que pertenece al grupo de los no metales. En la Tierra, a temperatura y presión estándar, dos átomos del elemento se unen para formar el llamado dioxígeno, un gas incoloro, inodoro e insípido.</p>
+          <a href="./pages/clasificacion.html">Ver Más</a>
+        </p>
+      </div>
+      
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+        <img src="./imagen/mende2.jpg" alt="mendeleieve" width="300px" height="200px">
+        <h3>Mendeleieve</h3>
+        <p class="texto">
+          Fue un químico,conocido por haber descubierto el patrón subyacente y la publicación en 1869 de la primera versión de tabla periódica.Su investigación principal fue la que dio origen a la enunciación de la ley periódica de los elementos, base del sistema periódico que lleva su nombre.</p>
+            <a href="./pages/origen.html">Ver Más</a>
+
+        </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+        <img src="./imagen/Merk-tabla-portada-2-768x643.jpg" alt="multimedia" width="300px" height="200px">
+        <h3>Multimedia</h3>
+        <p class="texto">
+          La aplicación Merck PTE es una herramienta para todos aquellos interesados en el mundo de la Química. Podras calcular la masa molar de cualquier compuesto, simplificar tu consulta con infografías, comparar radios atómicos, masa, electronegatividades y mucho más.
+          Puedes descargarla en : </p>
+          <a target="_blank" href="https://play.google.com/store/apps/details?id=de.merck.pte&hl=es_419&gl=US&pli=1">Aplicacion en Google Play</a>
+
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#informacion" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#informacion" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+<!--fin carru-->
+<!--video-->
+</section>
+<section class="container-fluid">
+ <section class="video carru">
+  <h2>Curiosidades de la tabla periódica </h2>
+  <div class="video-responsive">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/MI1ZQiAlUZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ </div>
+  <p class=>De la tabla periódica sabrás lo típico, ¿verdad? Que es de colores, que está formada por cuadrado, que se usa como arma de tortura en los colegios… ¿pero sabías que la plata puede hacer que te vuelvas de color azul, como le ocurrió a este señor, que el berilio sabe dulce porque hackea nuestro cerebro o que realmente no fue Mendeleiev el primero en hacer la tabla periódica?</p>
+ </section>
+
+</section>
+<!--fin video-->
+<!--pie de pagina-->
+<footer class="escala">
+    <p class="centrado ">Todos los derechos reservados por copyright</p>
+     <div class="redes">
+       <i class="fa-brands fa-facebook"></i>
+       <i class="fa-brands fa-instagram"></i>
+       <i class="fa-brands fa-twitter"></i>
+     </div>
+  </footer>
+   <a href="#" class="subir escala">
+       <i class="fa-solid fa-chevron-up"></i>
+   </a>
+   <!--fin pie de pagina-->
+    <!--bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!--fin bootstrap-->
+</body>
+</html>

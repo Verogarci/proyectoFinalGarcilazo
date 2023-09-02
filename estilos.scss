@@ -1,0 +1,297 @@
+*{
+    margin:o;
+    padding: 0;
+    font-family: cursive;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  .escala{
+    transform: scale(1);
+    transition: all 5s;
+    :hover{
+      transform: scale(1.1);
+    }
+   
+  }
+  /* barra de navegacion*/
+header{
+    nav{
+    height: 80px;
+    background-color: rgb(7, 20, 78);
+    }
+    .navbar-brand{
+      height: 30px; 
+   
+    }
+    .navbar-brand span {
+        font-size: 25px;
+      }
+     .navbar{
+        a{
+        color: aliceblue;
+        font-size: 25px;}
+        img{
+            height: 30px;
+        }
+      }  
+}
+@media only screen and (min-width: 0) and (max-width: 992px) {
+    .navbar-collapse {
+      background-color: rgb(7, 20, 78) !important;
+      display: flex;
+      justify-content: center !important;
+      display: none !important;
+    }
+    .navbar-toggler {
+      display: block !important;
+    }
+    .navbar-expand-lg .navbar-nav {
+      flex-direction: column !important;
+    }
+    .navbar-collapse.show {
+      display: block !important;
+    }
+  }
+  /* fin barra de nav*/
+  /*textos en general*/
+p {
+    text-align: justify;
+  }
+  .imagen2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  /*main*/
+  main{
+    
+    height: 700px;
+    background-image: url(./imagen/fondo\ pag\ principal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .intro {
+        width: 80%;
+        color: aliceblue;
+        background-color: rgba(7, 20, 78, 0.479);
+        padding: 30px;
+        border-radius: 10px;
+      
+        p{
+            margin-bottom: 20px; 
+        }
+        a{
+            color: aliceblue;
+            background-color: rgb(7, 20, 78);
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 10px;
+            text-align: center;}
+        }
+      }
+
+
+  /*fin main*/
+
+/*carrusel*/
+.carru{
+  padding: 30px;
+ 
+  h2{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(7, 20, 78);
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+    color: aliceblue;
+    
+    border-radius: 10px;
+  }
+}
+.informacion .carousel {
+  max-width: 200px;
+  max-height: 200px;
+
+}
+
+.carousel-item {
+  height: auto;
+  .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  h2{
+    padding: 20px;
+    justify-content: center;
+  }
+  a{
+   
+    text-decoration: none;
+    color: rgb(7, 20, 78);
+    margin-bottom: 30px;
+  }
+}
+.infomacion img {
+  border: 2px solid;
+}
+
+.mb-4 {
+  text-align: center;
+  padding: 20px;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+/*fin carrusel*/
+/*video*/
+.video {
+  text-align: center;
+
+}
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 600px; /* Adecua este valor para controlar la altura del video */
+  position: relative;
+  height: 0;
+  width: 70%;
+  margin-left: 15%;
+  background-position: center;
+  iframe{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+}
+/*fin video*/
+/*origen*/
+.mb-4 {
+  background-color: rgb(7, 20, 78);
+  color: aliceblue;
+
+}
+.imagen1 {
+  text-align: center;
+}
+/*fin origen*/
+/*radiactividad*/
+.espacio {
+  padding: 20px;
+}
+.centrado {
+  text-align: center;
+}
+.justificado {
+  text-align: justify;
+}
+/*fin radio*/
+/*trivia*/
+.fondf{
+  background-image: url(./imagen/fondo\ pag\ principal.jpg);
+  background-size: cover;
+  background-position: center ;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+.container1{
+  background-color: white;
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid rgb(7, 20, 78);
+  border-radius: 10px;
+  .sec1{
+    border: 2px solid rgb(7, 20, 78);
+    border-radius: 10px;
+    margin: 10px 0 ;
+    padding: 10px;
+    label{
+      display: block;
+      padding: 7px;
+      border-radius: 10px;
+      cursor: pointer;
+      border: 1px dashed rgb(7, 20, 78);
+      margin-bottom: 3px;
+      
+    }
+    :hover{
+      background: rgb(7, 20, 78);
+      color: aliceblue;
+    }
+  }
+  button{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(7, 20, 78);
+    color: aliceblue;
+    border-radius: 10px;
+  }
+  h3{
+    text-align: center;
+  }
+  #resultado{
+    font-size: 30px;
+    color: rgb(7, 20, 78);
+  }
+}
+/*contacto*/
+.btn {
+  background-color: rgb(7, 20, 78);
+}
+.colorboton {
+  color: aliceblue;
+}
+.letra {
+
+  color: aliceblue;
+  background-color: rgb(7, 20, 78);
+  border-radius: 10px;
+  text-align: center;
+}
+
+/*fin contacto*/
+/*footer*/
+footer {
+  background-color: rgb(7, 20, 78);
+  background-size: 80px;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  i{
+    font-size: 40px;
+    letter-spacing: 30px;
+    color: aliceblue;
+  }
+  p {
+    margin-bottom: 20px;
+    color: aliceblue;
+  }
+
+}
+/*finnfooter*/
+/*boton subir*/
+.subir {
+  height: 40px;
+  width: 40px;
+  border: 2px black solid;
+  color: aliceblue;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 28px;
+  background-color: rgb(7, 20, 78);
+}
