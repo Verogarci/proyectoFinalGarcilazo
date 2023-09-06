@@ -132,7 +132,8 @@ header .navbar img {
 
 .video-responsive {
   overflow: hidden;
-  padding-bottom: 600px; /* Adecua este valor para controlar la altura del video */
+  padding-top: 30px;
+  padding-bottom: 56.25%; /* Adecua este valor para controlar la altura del video */
   position: relative;
   height: 0;
   width: 70%;
