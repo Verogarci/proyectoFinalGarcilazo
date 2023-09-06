@@ -1,0 +1,94 @@
+/*origen*/
+.mb-4 {
+    background-color: rgb(7, 20, 78);
+    color: aliceblue;
+    
+    }
+    .imagen1 {
+    text-align: center;
+    }
+    /*fin origen*/
+    /*radiactividad*/
+    .espacio {
+    padding: 20px;
+    }
+    .centrado {
+    text-align: center;
+    }
+    .justificado {
+    text-align: justify;
+    }
+    /*fin radio*/
+    /*trivia*/
+    .fondf{
+    background-image: url(./imagen/fondo\ pag\ principal.jpg);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    padding: 20px;
+    }
+    .container1{
+    background-color: white;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(7, 20, 78);
+    border-radius: 10px;
+    .sec1{
+      border: 2px solid rgb(7, 20, 78);
+      border-radius: 10px;
+      margin: 10px 0 ;
+      padding: 10px;
+      label{
+        display: block;
+        padding: 7px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 1px dashed rgb(7, 20, 78);
+        margin-bottom: 3px;
+        
+      }
+      :hover{
+        background: rgb(7, 20, 78);
+        color: aliceblue;
+      }
+    }
+    button{
+      width: 80%;
+      display: block;
+      margin: auto;
+      padding: 20px;
+      background-color: rgb(7, 20, 78);
+      color: aliceblue;
+      border-radius: 10px;
+    }
+    h3{
+      text-align: center;
+    }
+    #resultado{
+      font-size: 30px;
+      color: rgb(7, 20, 78);
+    }
+    }
+    /*contacto*/
+    .p-3{
+    background-color: aliceblue;
+    border: 2px solid rgb(7, 20, 78);
+    border-radius: 10px;
+    }
+    .btn {
+    background-color: rgb(7, 20, 78);
+    }
+    .colorboton {
+    color: aliceblue;
+    }
+    .letra {
+    
+    color: aliceblue;
+    background-color: rgb(7, 20, 78);
+    border-radius: 10px;
+    text-align: center;
+    }
+    
+    /*fin contacto*/
+    

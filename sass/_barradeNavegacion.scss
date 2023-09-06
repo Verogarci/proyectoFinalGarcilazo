@@ -1,0 +1,40 @@
+/* barra de navegacion*/
+header{
+    nav{
+    height: 80px;
+    background-color: rgb(7, 20, 78);
+    }
+    .navbar-brand{
+      height: 30px; 
+   
+    }
+    .navbar-brand span {
+        font-size: 25px;
+      }
+     .navbar{
+        a{
+        color: aliceblue;
+        font-size: 25px;}
+        img{
+            height: 30px;
+        }
+      }  
+  }
+  @media only screen and (min-width: 0) and (max-width: 992px) {
+    .navbar-collapse {
+      background-color: rgb(7, 20, 78) !important;
+      display: flex;
+      justify-content: center !important;
+      display: none !important;
+    }
+    .navbar-toggler {
+      display: block !important;
+    }
+    .navbar-expand-lg .navbar-nav {
+      flex-direction: column !important;
+    }
+    .navbar-collapse.show {
+      display: block !important;
+    }
+  }
+  /* fin barra de nav*/

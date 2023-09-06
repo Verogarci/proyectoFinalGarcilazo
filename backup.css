@@ -16,31 +16,6 @@ html {
   transform: scale(1.1);
 }
 
-/*textos en general*/
-p {
-  text-align: justify;
-}
-
-.imagen2 {
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-.fondo {
-  background-image: url(./imagen/fondo\ pag\ principal.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.contenedortodo {
-  background-color: white;
-  border: 2px solid rgb(7, 20, 78);
-  margin: 5%;
-  margin-top: 0%;
-  margin-bottom: 0%;
-}
-
 /* barra de navegacion*/
 header nav {
   height: 80px;
@@ -78,6 +53,61 @@ header .navbar img {
   }
 }
 /* fin barra de nav*/
+/*textos en general*/
+p {
+  text-align: justify;
+}
+
+.imagen2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.fondo {
+  background-image: url(./imagen/fondo\ pag\ principal.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contenedortodo {
+  background-color: white;
+  border: 2px solid rgb(7, 20, 78);
+  margin: 5%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+/*main*/
+main {
+  height: 700px;
+  background-image: url(./imagen/fondo\ pag\ principal.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .intro {
+  width: 80%;
+  color: aliceblue;
+  background-color: rgba(7, 20, 78, 0.479);
+  padding: 30px;
+  border-radius: 10px;
+}
+main .intro p {
+  margin-bottom: 20px;
+}
+main .intro a {
+  color: aliceblue;
+  background-color: rgb(7, 20, 78);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/*fin main*/
 /*carrusel*/
 .carru {
   padding: 30px;
@@ -155,70 +185,6 @@ header .navbar img {
 }
 
 /*fin video*/
-/*main*/
-main {
-  height: 700px;
-  background-image: url(./imagen/fondo\ pag\ principal.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-main .intro {
-  width: 80%;
-  color: aliceblue;
-  background-color: rgba(7, 20, 78, 0.479);
-  padding: 30px;
-  border-radius: 10px;
-}
-main .intro p {
-  margin-bottom: 20px;
-}
-main .intro a {
-  color: aliceblue;
-  background-color: rgb(7, 20, 78);
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 10px;
-  text-align: center;
-}
-
-/*fin main*/
-/*footer*/
-footer {
-  background-color: rgb(7, 20, 78);
-  background-size: 80px;
-  font-size: 20px;
-  text-align: center;
-  padding: 20px;
-}
-footer i {
-  font-size: 40px;
-  letter-spacing: 30px;
-  color: aliceblue;
-}
-footer p {
-  margin-bottom: 20px;
-  color: aliceblue;
-}
-
-/*finnfooter*/
-/*boton subir*/
-.subir {
-  height: 40px;
-  width: 40px;
-  border: 2px black solid;
-  color: aliceblue;
-  position: fixed;
-  bottom: 40px;
-  right: 40px;
-  text-align: center;
-  line-height: 40px;
-  font-size: 28px;
-  background-color: rgb(7, 20, 78);
-}
-
 /*origen*/
 .mb-4 {
   background-color: rgb(7, 20, 78);
@@ -318,4 +284,37 @@ footer p {
   text-align: center;
 }
 
-/*fin contacto*//*# sourceMappingURL=estilos.css.map */
+/*fin contacto*/
+/*footer*/
+footer {
+  background-color: rgb(7, 20, 78);
+  background-size: 80px;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+footer i {
+  font-size: 40px;
+  letter-spacing: 30px;
+  color: aliceblue;
+}
+footer p {
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+/*finnfooter*/
+/*boton subir*/
+.subir {
+  height: 40px;
+  width: 40px;
+  border: 2px black solid;
+  color: aliceblue;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 28px;
+  background-color: rgb(7, 20, 78);
+}/*# sourceMappingURL=estilos.css.map */

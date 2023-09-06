@@ -1,0 +1,32 @@
+/*main*/
+main{
+  
+    height: 700px;
+    background-image: url(./imagen/fondo\ pag\ principal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .intro {
+        width: 80%;
+        color: aliceblue;
+        background-color: rgba(7, 20, 78, 0.479);
+        padding: 30px;
+        border-radius: 10px;
+      
+        p{
+            margin-bottom: 20px; 
+        }
+        a{
+            color: aliceblue;
+            background-color: rgb(7, 20, 78);
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 10px;
+            text-align: center;}
+        }
+      }
+  
+  
+  /*fin main*/

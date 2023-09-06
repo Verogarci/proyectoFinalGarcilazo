@@ -1,0 +1,33 @@
+/*footer*/
+footer {
+    background-color: rgb(7, 20, 78);
+    background-size: 80px;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    i{
+      font-size: 40px;
+      letter-spacing: 30px;
+      color: aliceblue;
+    }
+    p {
+      margin-bottom: 20px;
+      color: aliceblue;
+    }
+    
+    }
+    /*finnfooter*/
+    /*boton subir*/
+    .subir {
+    height: 40px;
+    width: 40px;
+    border: 2px black solid;
+    color: aliceblue;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 28px;
+    background-color: rgb(7, 20, 78);
+    }
