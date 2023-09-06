@@ -23,19 +23,8 @@
     margin-top: 10px;
     margin-bottom: 20px;
   }
-  .fondo{
-    background-image: url(./imagen/fondo\ pag\ principal.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-  .contenedortodo{
-    background-color: white;
-    border: 2px solid rgb(7, 20, 78);
-    margin: 5%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-  }
+ 
+
 
   @import "./sass/barradeNavegacion";
   @import "./sass/carrusel";
