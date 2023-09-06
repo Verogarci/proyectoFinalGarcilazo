@@ -23,9 +23,13 @@
     margin-top: 10px;
     margin-bottom: 20px;
   }
- 
-
-
+  @keyframes entradaDesdeIzquierda {
+    from{
+    transform: translateX(-100%);}
+    to{
+      transform: translateX(0)
+    }
+  }
   @import "./sass/barradeNavegacion";
   @import "./sass/carrusel";
   @import "./sass/main";

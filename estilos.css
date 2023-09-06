@@ -26,6 +26,14 @@ p {
   margin-bottom: 20px;
 }
 
+@keyframes entradaDesdeIzquierda {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
 /* barra de navegacion*/
 header nav {
   height: 80px;
