@@ -34,6 +34,10 @@ p {
     transform: translateX(0);
   }
 }
+.td {
+  font-family: cursive;
+}
+
 /* barra de navegacion*/
 header nav {
   height: 80px;
