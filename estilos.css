@@ -29,6 +29,7 @@ body {
 /*textos en general*/
 p {
   text-align: justify;
+  font-size: 25px;
 }
 
 .imagen2 {
@@ -91,9 +92,8 @@ header .navbar img {
 }
 .carru h2 {
   text-align: center;
-  text-transform: uppercase;
   background-color: rgb(7, 20, 78);
-  height: 80px;
+  height: auto;
   width: 100%;
   justify-content: center;
   padding: 20px;
@@ -225,6 +225,10 @@ footer p {
   line-height: 40px;
   font-size: 28px;
   background-color: rgb(7, 20, 78);
+}
+
+h2 {
+  font-size: 30px;
 }
 
 /*origen*/
