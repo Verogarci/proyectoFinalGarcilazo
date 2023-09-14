@@ -18,10 +18,12 @@ header{
         img{
             height: 30px;
         }
+
       }  
   }
   @media only screen and (min-width: 0) and (max-width: 992px) {
     .navbar-collapse {
+      height: auto;
       background-color: rgb(7, 20, 78) !important;
       display: flex;
       justify-content: center !important;
@@ -29,12 +31,25 @@ header{
     }
     .navbar-toggler {
       display: block !important;
+      border: none !important;
+      box-shadow: none !important;
+      outline: none !important;
     }
     .navbar-expand-lg .navbar-nav {
       flex-direction: column !important;
     }
     .navbar-collapse.show {
       display: block !important;
+    }
+   
+    .navbar-nav{
+        li{
+        text-align: center;
+       
+        }
+    }
+    .navbar-brand img{
+      max-height: 40px;
     }
   }
   /* fin barra de nav*/

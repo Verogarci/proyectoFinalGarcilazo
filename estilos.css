@@ -70,6 +70,7 @@ header .navbar img {
 
 @media only screen and (min-width: 0) and (max-width: 992px) {
   .navbar-collapse {
+    height: auto;
     background-color: rgb(7, 20, 78) !important;
     display: flex;
     justify-content: center !important;
@@ -77,12 +78,21 @@ header .navbar img {
   }
   .navbar-toggler {
     display: block !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
   }
   .navbar-expand-lg .navbar-nav {
     flex-direction: column !important;
   }
   .navbar-collapse.show {
     display: block !important;
+  }
+  .navbar-nav li {
+    text-align: center;
+  }
+  .navbar-brand img {
+    max-height: 40px;
   }
 }
 /* fin barra de nav*/
@@ -153,6 +163,7 @@ header .navbar img {
   width: 70%;
   margin-left: 15%;
   background-position: center;
+  border-radius: 10px;
 }
 .video-responsive iframe {
   left: 0;
@@ -258,7 +269,7 @@ h2 {
 /*fin radio*/
 /*trivia*/
 .fondf {
-  background-image: url(./imagen/fondo\ pag\ principal.jpg);
+  background-image: url(./imagen/fondo\ pag\ principal2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
